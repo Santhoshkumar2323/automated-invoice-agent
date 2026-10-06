@@ -84,5 +84,98 @@
       "igst": 73958.22,
       "total": 487216.67
     }
+  },
+  {
+    "file": "Pinnacle_Metals_PM874832_8605.pdf",
+    "defect": "REVOKED_VENDOR",
+    "expected_outcome": "REGISTRY_REVOKED",
+    "printed_date": "2026-08-24",
+    "invoice": {
+      "invoice_number": "PM874832",
+      "invoice_date": "2026-08-24",
+      "vendor_name": "Pinnacle Metals",
+      "vendor_gstin": "24AABCP7765J1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 1,
+          "rate": 7380.5,
+          "amount": 7380.5
+        },
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 10,
+          "rate": 57536.44,
+          "amount": 575364.4
+        },
+        {
+          "description": "Industrial lubricant 20L drum",
+          "hsn_code": "2710",
+          "quantity": 5,
+          "rate": 10986.7,
+          "amount": 54933.5
+        }
+      ],
+      "subtotal": 637678.4,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 114782.11,
+      "total": 752460.51
+    }
+  },
+  {
+    "file": "Veda_Pharma_Distributors_INV_2026_27_51561_8117.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-03",
+    "invoice": {
+      "invoice_number": "INV/2026-27/51561",
+      "invoice_date": "2026-09-03",
+      "vendor_name": "Veda Pharma Distributors",
+      "vendor_gstin": "36AABCV9921D1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 1,
+          "rate": 8243.39,
+          "amount": 8243.39
+        },
+        {
+          "description": "Industrial lubricant 20L drum",
+          "hsn_code": "2710",
+          "quantity": 10,
+          "rate": 10446.82,
+          "amount": 104468.2
+        },
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 1,
+          "rate": 60128.43,
+          "amount": 60128.43
+        },
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 5,
+          "rate": 4950.96,
+          "amount": 24754.8
+        }
+      ],
+      "subtotal": 197594.82,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 35567.07,
+      "total": 233161.89
+    }
   }
 ]
