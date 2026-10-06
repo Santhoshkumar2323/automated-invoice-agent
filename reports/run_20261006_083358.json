@@ -1,0 +1,80 @@
+{
+  "run_id": "20261006_083358",
+  "started_at": "2026-10-06T08:33:58.787136+00:00",
+  "finished_at": "2026-10-06T08:34:26.314826+00:00",
+  "trigger_reason": "manual run",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "REJECTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Alpha_Logistics_Sandbox_ALS569751_1993.pdf",
+      "vendor": "Alpha Logistics Sandbox",
+      "invoice_number": "ALS569751",
+      "status": "REJECTED",
+      "reason": "REGISTRY_SUSPENDED: vendor GST registration is suspended",
+      "attempts": 1,
+      "issue_codes": [
+        "REGISTRY_SUSPENDED"
+      ],
+      "registry_status": "SUSPENDED",
+      "expected_outcome": "REGISTRY_SUSPENDED",
+      "defect": "SUSPENDED_VENDOR",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    },
+    {
+      "file": "Alpha_Logistics_Sandbox_INV_2026_27_80752_6607.pdf",
+      "vendor": "Alpha Logistics Sandbox",
+      "invoice_number": "INV/2026-27/80752",
+      "status": "REJECTED",
+      "reason": "REGISTRY_SUSPENDED: vendor GST registration is suspended",
+      "attempts": 1,
+      "issue_codes": [
+        "REGISTRY_SUSPENDED"
+      ],
+      "registry_status": "SUSPENDED",
+      "expected_outcome": "REGISTRY_SUSPENDED",
+      "defect": "SUSPENDED_VENDOR",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 2,
+    "caught": 2,
+    "clean_invoices": 0,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2939,
+    "completion_tokens": 606,
+    "total_tokens": 3545,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3545
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 11128,
+    "token_limit": 100000,
+    "pages_today": 6,
+    "page_limit": 50
+  }
+}

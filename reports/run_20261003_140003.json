@@ -1,0 +1,80 @@
+{
+  "run_id": "20261003_140003",
+  "started_at": "2026-10-03T14:00:03.420522+00:00",
+  "finished_at": "2026-10-03T14:00:35.983111+00:00",
+  "trigger_reason": "manual run",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "NEEDS_REVIEW": 2
+  },
+  "invoices": [
+    {
+      "file": "Orbit_Cloud_Services_OCS_2026_9764_9017.pdf",
+      "vendor": "Orbit Cloud Services",
+      "invoice_number": "OCS-2026-9764",
+      "status": "NEEDS_REVIEW",
+      "reason": "the invoice itself prints these values, so a retry could not help; ARITHMETIC_TOTAL: subtotal plus taxes is 914172.31 but total is 914293.28",
+      "attempts": 1,
+      "issue_codes": [
+        "ARITHMETIC_TOTAL"
+      ],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ARITHMETIC_TOTAL",
+      "defect": "WRONG_TOTAL",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    },
+    {
+      "file": "Quantum_Tech_Labs_QTL_2026_9749_9863.pdf",
+      "vendor": "Quantum Tech Labs",
+      "invoice_number": "QTL-2026-9749",
+      "status": "NEEDS_REVIEW",
+      "reason": "the invoice itself prints these values, so a retry could not help; ARITHMETIC_TOTAL: subtotal plus taxes is 14114.0 but total is 15618.41",
+      "attempts": 1,
+      "issue_codes": [
+        "ARITHMETIC_TOTAL"
+      ],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ARITHMETIC_TOTAL",
+      "defect": "WRONG_TOTAL",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 2,
+    "caught": 2,
+    "clean_invoices": 0,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2893,
+    "completion_tokens": 685,
+    "total_tokens": 3578,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3578
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 44300,
+    "token_limit": 100000,
+    "pages_today": 21,
+    "page_limit": 50
+  }
+}

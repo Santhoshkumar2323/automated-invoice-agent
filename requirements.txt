@@ -1,0 +1,11 @@
+pydantic>=2.9,<3
+pyyaml>=6.0
+python-dotenv>=1.0
+reportlab>=4.2
+pandas>=2.2
+streamlit>=1.40
+playwright>=1.48
+groq>=1.0
+llama-cloud>=2.0
+langgraph>=1.0
+pytest>=8.0

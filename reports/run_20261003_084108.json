@@ -1,0 +1,76 @@
+{
+  "run_id": "20261003_084108",
+  "started_at": "2026-10-03T08:41:08.332004+00:00",
+  "finished_at": "2026-10-03T08:42:00.733317+00:00",
+  "trigger_reason": "manual run",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Alpha_Labs_AL_2026_3470_9187.pdf",
+      "vendor": "Alpha Labs",
+      "invoice_number": "AL-2026-3470",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/Alpha_Labs_AL_2026_3470_9187.png"
+    },
+    {
+      "file": "Zenith_Auto_Components_INV_2026_27_48742_8741.pdf",
+      "vendor": "Zenith Auto Components",
+      "invoice_number": "INV/2026-27/48742",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/Zenith_Auto_Components_INV_2026_27_48742_8741.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2995,
+    "completion_tokens": 562,
+    "total_tokens": 3557,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3557
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 19989,
+    "token_limit": 80000,
+    "pages_today": 10,
+    "page_limit": 20
+  }
+}

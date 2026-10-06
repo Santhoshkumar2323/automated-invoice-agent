@@ -1,0 +1,81 @@
+{
+  "run_id": "20261002_192935",
+  "started_at": "2026-10-02T19:29:35.451421+00:00",
+  "finished_at": "2026-10-02T19:30:15.710815+00:00",
+  "trigger_reason": "manual run",
+  "dry_run": true,
+  "model": "llama-3.3-70b-versatile",
+  "counts": {
+    "ERROR": 3
+  },
+  "invoices": [
+    {
+      "file": "Zenith_Auto_Components_ZAC_2026_1024_2209.pdf",
+      "vendor": "",
+      "invoice_number": "",
+      "status": "ERROR",
+      "reason": "extraction failed: NotFoundError: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+      "attempts": 0,
+      "issue_codes": [],
+      "registry_status": null,
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": null,
+      "extraction": null,
+      "screenshot": ""
+    },
+    {
+      "file": "Bluewave_Electricals_INV_2026_27_71067_4327.pdf",
+      "vendor": "",
+      "invoice_number": "",
+      "status": "ERROR",
+      "reason": "extraction failed: NotFoundError: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+      "attempts": 0,
+      "issue_codes": [],
+      "registry_status": null,
+      "expected_outcome": "REGISTRY_NOT_FOUND",
+      "defect": "UNKNOWN_VENDOR",
+      "decision_correct": null,
+      "extraction": null,
+      "screenshot": ""
+    },
+    {
+      "file": "Veda_Pharma_Distributors_VPD_2026_0673_4779.pdf",
+      "vendor": "",
+      "invoice_number": "",
+      "status": "ERROR",
+      "reason": "extraction failed: NotFoundError: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+      "attempts": 0,
+      "issue_codes": [],
+      "registry_status": null,
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": null,
+      "extraction": null,
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": null,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 0,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 3,
+    "cost_usd": 0.0,
+    "tokens_by_step": {},
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 0,
+    "token_limit": 80000,
+    "pages_today": 3,
+    "page_limit": 20
+  }
+}

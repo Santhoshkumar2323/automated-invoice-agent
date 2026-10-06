@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+*.log
+*.tmp
+streamlit.pid
+sample_pdfs/
+data/incoming_invoices/*.pdf
+.DS_Store

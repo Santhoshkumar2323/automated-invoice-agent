@@ -1,0 +1,71 @@
+pipeline:
+  enabled: true
+  run_until: ""
+  interval_hours: 3
+  wake_tolerance_minutes: 10
+  invoices_per_run: 2
+  bad_invoice_ratio: 0.25
+  max_retries: 2
+  skip_pointless_retries: true
+  seed: null
+
+llm:
+  model: openai/gpt-oss-20b
+  temperature: 0.0
+  max_tokens: 4000
+  reasoning_effort: low
+
+parser:
+  tier: cost_effective
+  timeout_seconds: 300
+
+budget:
+  daily_token_limit: 100000
+  daily_page_limit: 50
+
+pricing:
+  groq_input_per_million_usd: 0.0
+  groq_output_per_million_usd: 0.0
+  llamaparse_per_page_usd: 0.0
+
+browser:
+  headless: true
+  slow_mo_ms: 0
+  timeout_ms: 15000
+  ledger_url: http://localhost:8501
+  viewport_width: 1280
+  viewport_height: 1400
+  dismiss_popups: true
+
+checks:
+  gstin_format: true
+  gstin_checksum: true
+  state_code: true
+  arithmetic: true
+  duplicate_invoice: true
+  registry_status: true
+
+retention:
+  max_screenshots: 40
+  max_reports: 100
+  max_ground_truth: 500
+  max_incoming_pdfs: 20
+  usage_days: 30
+
+dashboard:
+  github_repo: ""
+  branch: main
+  refresh_seconds: 300
+  recent_runs: 30
+  recent_ledger_rows: 50
+  recent_screenshots: 6
+  include_dry_runs: false
+
+paths:
+  incoming_dir: data/incoming_invoices
+  ledger_file: data/company_ledger.json
+  ground_truth_file: data/ground_truth.json
+  usage_log_file: data/usage_log.json
+  run_state_file: data/run_state.json
+  reports_dir: reports
+  screenshots_dir: screenshots
