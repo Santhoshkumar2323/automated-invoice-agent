@@ -1,0 +1,88 @@
+[
+  {
+    "file": "Orbit_Cloud_Services_OCS_2026_3438_7604.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "01/09/2026",
+    "invoice": {
+      "invoice_number": "OCS-2026-3438",
+      "invoice_date": "2026-09-01",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 3,
+          "rate": 54941.42,
+          "amount": 164824.26
+        },
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 6,
+          "rate": 4291.26,
+          "amount": 25747.56
+        },
+        {
+          "description": "Network switch 24 port",
+          "hsn_code": "8517",
+          "quantity": 4,
+          "rate": 6621.39,
+          "amount": 26485.56
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 3,
+          "rate": 4144.18,
+          "amount": 12432.54
+        }
+      ],
+      "subtotal": 229489.92,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 41308.19,
+      "total": 270798.11
+    }
+  },
+  {
+    "file": "Orbit_Cloud_Services_OCS_2026_8770_7933.pdf",
+    "defect": "WRONG_TOTAL",
+    "expected_outcome": "ARITHMETIC_TOTAL",
+    "printed_date": "Oct 01, 2026",
+    "invoice": {
+      "invoice_number": "OCS-2026-8770",
+      "invoice_date": "2026-10-01",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 5,
+          "rate": 79640.45,
+          "amount": 398202.25
+        },
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 6,
+          "rate": 2112.79,
+          "amount": 12676.74
+        }
+      ],
+      "subtotal": 410878.99,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 73958.22,
+      "total": 487216.67
+    }
+  }
+]
