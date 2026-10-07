@@ -1,0 +1,76 @@
+{
+  "run_id": "20261007_203342",
+  "started_at": "2026-10-07T20:33:42.886464+00:00",
+  "finished_at": "2026-10-07T20:34:15.121078+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Quantum_Tech_Labs_QTL_2026_7837_2331.pdf",
+      "vendor": "Quantum Tech Labs",
+      "invoice_number": "QTL-2026-7837",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261007_203356_Quantum_Tech_Labs_QTL_2026_7837_2331.png"
+    },
+    {
+      "file": "Veda_Pharma_Distributors_VPD438622_8730.pdf",
+      "vendor": "Veda Pharma Distributors",
+      "invoice_number": "VPD438622",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261007_203412_Veda_Pharma_Distributors_VPD438622_8730.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2978,
+    "completion_tokens": 705,
+    "total_tokens": 3683,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3683
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 14501,
+    "token_limit": 100000,
+    "pages_today": 8,
+    "page_limit": 50
+  }
+}

@@ -414,5 +414,84 @@
       "igst": 0.0,
       "total": 228886.39
     }
+  },
+  {
+    "file": "Quantum_Tech_Labs_QTL_2026_7837_2331.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-09",
+    "invoice": {
+      "invoice_number": "QTL-2026-7837",
+      "invoice_date": "2026-09-09",
+      "vendor_name": "Quantum Tech Labs",
+      "vendor_gstin": "27AABCQ4821M1Z7",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 6,
+          "rate": 82380.26,
+          "amount": 494281.56
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 9,
+          "rate": 8845.98,
+          "amount": 79613.82
+        }
+      ],
+      "subtotal": 573895.38,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 103301.17,
+      "total": 677196.55
+    }
+  },
+  {
+    "file": "Veda_Pharma_Distributors_VPD438622_8730.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "06-09-2026",
+    "invoice": {
+      "invoice_number": "VPD438622",
+      "invoice_date": "2026-09-06",
+      "vendor_name": "Veda Pharma Distributors",
+      "vendor_gstin": "36AABCV9921D1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Corrugated packaging boxes",
+          "hsn_code": "4819",
+          "quantity": 197,
+          "rate": 32.13,
+          "amount": 6329.61
+        },
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 10,
+          "rate": 43783.61,
+          "amount": 437836.1
+        },
+        {
+          "description": "Network switch 24 port",
+          "hsn_code": "8517",
+          "quantity": 3,
+          "rate": 17856.05,
+          "amount": 53568.15
+        }
+      ],
+      "subtotal": 497733.86,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 89592.09,
+      "total": 587325.95
+    }
   }
 ]
