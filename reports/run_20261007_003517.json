@@ -1,0 +1,76 @@
+{
+  "run_id": "20261007_003517",
+  "started_at": "2026-10-07T00:35:17.189213+00:00",
+  "finished_at": "2026-10-07T00:37:00.884267+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Sundaram_Office_Systems_SOS123504_3838.pdf",
+      "vendor": "Sundaram Office Systems",
+      "invoice_number": "SOS123504",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261007_003632_Sundaram_Office_Systems_SOS123504_3838.png"
+    },
+    {
+      "file": "Sundaram_Office_Systems_INV_2026_27_98836_9917.pdf",
+      "vendor": "Sundaram Office Systems",
+      "invoice_number": "INV/2026-27/98836",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261007_003658_Sundaram_Office_Systems_INV_2026_27_98836_9917.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 3084,
+    "completion_tokens": 565,
+    "total_tokens": 3649,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3649
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 3649,
+    "token_limit": 100000,
+    "pages_today": 2,
+    "page_limit": 50
+  }
+}

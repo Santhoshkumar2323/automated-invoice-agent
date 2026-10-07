@@ -177,5 +177,84 @@
       "igst": 35567.07,
       "total": 233161.89
     }
+  },
+  {
+    "file": "Sundaram_Office_Systems_SOS123504_3838.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "Aug 23, 2026",
+    "invoice": {
+      "invoice_number": "SOS123504",
+      "invoice_date": "2026-08-23",
+      "vendor_name": "Sundaram Office Systems",
+      "vendor_gstin": "33AAECS6104R1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 3,
+          "rate": 68796.95,
+          "amount": 206390.85
+        },
+        {
+          "description": "Network switch 24 port",
+          "hsn_code": "8517",
+          "quantity": 5,
+          "rate": 15290.96,
+          "amount": 76454.8
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 5,
+          "rate": 3887.88,
+          "amount": 19439.4
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 5,
+          "rate": 12076.21,
+          "amount": 60381.05
+        }
+      ],
+      "subtotal": 362666.1,
+      "cgst": 32639.95,
+      "sgst": 32639.95,
+      "igst": 0.0,
+      "total": 427946.0
+    }
+  },
+  {
+    "file": "Sundaram_Office_Systems_INV_2026_27_98836_9917.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "29 Sep 2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/98836",
+      "invoice_date": "2026-09-29",
+      "vendor_name": "Sundaram Office Systems",
+      "vendor_gstin": "33AAECS6104R1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 1,
+          "rate": 58654.63,
+          "amount": 58654.63
+        }
+      ],
+      "subtotal": 58654.63,
+      "cgst": 5278.92,
+      "sgst": 5278.92,
+      "igst": 0.0,
+      "total": 69212.47
+    }
   }
 ]

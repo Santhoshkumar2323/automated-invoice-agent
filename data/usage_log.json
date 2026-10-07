@@ -910,5 +910,53 @@
     "completion_tokens": 437,
     "total_tokens": 2047,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-07T00:36:31.661768+00:00",
+    "run_id": "20261007_003517",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Sundaram_Office_Systems_SOS123504_3838.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-07T00:36:32.882967+00:00",
+    "run_id": "20261007_003517",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Sundaram_Office_Systems_SOS123504_3838.pdf",
+    "prompt_tokens": 1654,
+    "completion_tokens": 392,
+    "total_tokens": 2046,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-07T00:36:57.396653+00:00",
+    "run_id": "20261007_003517",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Sundaram_Office_Systems_INV_2026_27_98836_9917.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-07T00:36:58.253122+00:00",
+    "run_id": "20261007_003517",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Sundaram_Office_Systems_INV_2026_27_98836_9917.pdf",
+    "prompt_tokens": 1430,
+    "completion_tokens": 173,
+    "total_tokens": 1603,
+    "pages": 0
   }
 ]
