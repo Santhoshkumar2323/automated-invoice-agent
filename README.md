@@ -16,47 +16,52 @@ A scheduled pipeline that reads GST invoices with AI, checks them against compli
     <td align="center" width="50%">
       <img src="outputs/1.before-run.png" alt="Dashboard before the first cloud run" width="100%" />
       <br />
-      <font size="2"><b>1.</b> Dashboard before the first cloud run: no runs recorded</font>
+      <font size="2"><b>1. Dashboard before the first cloud run: no runs recorded</b></font>
     </td>
+
     <td align="center" width="50%">
       <img src="outputs/2.after-run.png" alt="Dashboard after one cloud run" width="100%" />
       <br />
-      <font size="2"><b>2.</b> After one cloud run: 2 invoices, 1 accepted, 1 sent to review</font>
+      <font size="2"><b>2. After one cloud run: 2 invoices, 1 accepted, 1 sent to review</b></font>
     </td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
       <img src="outputs/decision.png" alt="Quality tab on the dashboard" width="100%" />
       <br />
-      <font size="2"><b>3.</b> Quality tab: each planted problem, and whether the system decided correctly</font>
+      <font size="2"><b>3. Quality tab: each planted problem, and whether the system decided correctly</b></font>
     </td>
+
     <td align="center" width="50%">
       <img src="outputs/screeshot.png" alt="Robot screenshot shown on the dashboard" width="100%" />
       <br />
-      <font size="2"><b>4.</b> The robot's own screenshot of the accounting website after an entry</font>
+      <font size="2"><b>4. The robot's own screenshot of the accounting website after an entry</b></font>
     </td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
       <img src="outputs/run-summary-1.png" alt="Run report on the GitHub Actions page, part 1" width="100%" />
       <br />
-      <font size="2"><b>5.</b> Run report on the GitHub Actions summary page: outcome</font>
+      <font size="2"><b>5. Run report on the GitHub Actions summary page: outcome</b></font>
     </td>
+
     <td align="center" width="50%">
       <img src="outputs/run-summary-2.png" alt="Run report on the GitHub Actions page, part 2" width="100%" />
       <br />
-      <font size="2"><b>6.</b> The same report: invoices, quality and token usage</font>
+      <font size="2"><b>6. The same report: invoices, quality and token usage</b></font>
     </td>
   </tr>
+
   <tr>
     <td align="center" colspan="2">
       <img src="outputs/tokens-usage.png" alt="Usage tab on the dashboard" width="50%" />
       <br />
-      <font size="2"><b>7.</b> Usage tab: tokens and parsed pages used today against the daily limits</font>
+      <font size="2"><b>7. Usage tab: tokens and parsed pages used today against the daily limits</b></font>
     </td>
   </tr>
 </table>
-
 
 ## What it does
 
