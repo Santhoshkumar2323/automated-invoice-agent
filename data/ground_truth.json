@@ -256,5 +256,91 @@
       "igst": 0.0,
       "total": 69212.47
     }
+  },
+  {
+    "file": "Veda_Pharma_Distributors_VPD345460_8951.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-18",
+    "invoice": {
+      "invoice_number": "VPD345460",
+      "invoice_date": "2026-09-18",
+      "vendor_name": "Veda Pharma Distributors",
+      "vendor_gstin": "36AABCV9921D1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 9,
+          "rate": 2246.85,
+          "amount": 20221.65
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 2,
+          "rate": 12817.38,
+          "amount": 25634.76
+        },
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 5,
+          "rate": 18210.18,
+          "amount": 91050.9
+        }
+      ],
+      "subtotal": 136907.31,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 24643.32,
+      "total": 161550.63
+    }
+  },
+  {
+    "file": "Pinnacle_Metals_PM885410_2137.pdf",
+    "defect": "REVOKED_VENDOR",
+    "expected_outcome": "REGISTRY_REVOKED",
+    "printed_date": "2026-09-29",
+    "invoice": {
+      "invoice_number": "PM885410",
+      "invoice_date": "2026-09-29",
+      "vendor_name": "Pinnacle Metals",
+      "vendor_gstin": "24AABCP7765J1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 4,
+          "rate": 5405.01,
+          "amount": 21620.04
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 3,
+          "rate": 5901.51,
+          "amount": 17704.53
+        },
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 7,
+          "rate": 58540.91,
+          "amount": 409786.37
+        }
+      ],
+      "subtotal": 449110.94,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 80839.97,
+      "total": 529950.91
+    }
   }
 ]

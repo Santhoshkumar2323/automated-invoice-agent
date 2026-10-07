@@ -1,0 +1,79 @@
+{
+  "run_id": "20261007_070730",
+  "started_at": "2026-10-07T07:07:30.027022+00:00",
+  "finished_at": "2026-10-07T07:08:08.976671+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 1,
+    "REJECTED": 1
+  },
+  "invoices": [
+    {
+      "file": "Veda_Pharma_Distributors_VPD345460_8951.pdf",
+      "vendor": "Veda Pharma Distributors",
+      "invoice_number": "VPD345460",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261007_070753_Veda_Pharma_Distributors_VPD345460_8951.png"
+    },
+    {
+      "file": "Pinnacle_Metals_PM885410_2137.pdf",
+      "vendor": "Pinnacle Metals",
+      "invoice_number": "PM885410",
+      "status": "REJECTED",
+      "reason": "REGISTRY_REVOKED: vendor GST registration is revoked",
+      "attempts": 1,
+      "issue_codes": [
+        "REGISTRY_REVOKED"
+      ],
+      "registry_status": "REVOKED",
+      "expected_outcome": "REGISTRY_REVOKED",
+      "defect": "REVOKED_VENDOR",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 1,
+    "caught": 1,
+    "clean_invoices": 1,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 3065,
+    "completion_tokens": 462,
+    "total_tokens": 3527,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3527
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 7176,
+    "token_limit": 100000,
+    "pages_today": 4,
+    "page_limit": 50
+  }
+}
