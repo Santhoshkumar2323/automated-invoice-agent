@@ -342,5 +342,77 @@
       "igst": 80839.97,
       "total": 529950.91
     }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_INV_2026_27_41021_4245.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "30 September 2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/41021",
+      "invoice_date": "2026-09-30",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 4,
+          "rate": 477.04,
+          "amount": 1908.16
+        }
+      ],
+      "subtotal": 1908.16,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 343.47,
+      "total": 2251.63
+    }
+  },
+  {
+    "file": "Sundaram_Office_Systems_SOS135159_3939.pdf",
+    "defect": "WRONG_TOTAL",
+    "expected_outcome": "ARITHMETIC_TOTAL",
+    "printed_date": "03/10/2026",
+    "invoice": {
+      "invoice_number": "SOS135159",
+      "invoice_date": "2026-10-03",
+      "vendor_name": "Sundaram Office Systems",
+      "vendor_gstin": "33AAECS6104R1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 9,
+          "rate": 17755.35,
+          "amount": 159798.15
+        },
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 3,
+          "rate": 1391.93,
+          "amount": 4175.79
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 5,
+          "rate": 5632.31,
+          "amount": 28161.55
+        }
+      ],
+      "subtotal": 192135.49,
+      "cgst": 17292.19,
+      "sgst": 17292.19,
+      "igst": 0.0,
+      "total": 228886.39
+    }
   }
 ]

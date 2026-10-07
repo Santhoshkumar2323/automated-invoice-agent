@@ -1,0 +1,81 @@
+{
+  "run_id": "20261007_142803",
+  "started_at": "2026-10-07T14:28:03.467172+00:00",
+  "finished_at": "2026-10-07T14:28:33.085883+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 1,
+    "NEEDS_REVIEW": 1
+  },
+  "invoices": [
+    {
+      "file": "Kaveri_Packaging_Works_INV_2026_27_41021_4245.pdf",
+      "vendor": "Kaveri Packaging Works",
+      "invoice_number": "INV/2026-27/41021",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261007_142817_Kaveri_Packaging_Works_INV_2026_27_41021_4245.png"
+    },
+    {
+      "file": "Sundaram_Office_Systems_SOS135159_3939.pdf",
+      "vendor": "Sundaram Office Systems",
+      "invoice_number": "SOS135159",
+      "status": "NEEDS_REVIEW",
+      "reason": "the invoice itself prints these values, so a retry could not help; ARITHMETIC_TOTAL: subtotal plus taxes is 226719.87 but total is 228886.39",
+      "attempts": 1,
+      "issue_codes": [
+        "ARITHMETIC_TOTAL"
+      ],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ARITHMETIC_TOTAL",
+      "defect": "WRONG_TOTAL",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 10,
+        "total": 11,
+        "wrong": [
+          "invoice_date"
+        ]
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 0.9545,
+  "detection": {
+    "bad_invoices": 1,
+    "caught": 1,
+    "clean_invoices": 1,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2938,
+    "completion_tokens": 704,
+    "total_tokens": 3642,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3642
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 10818,
+    "token_limit": 100000,
+    "pages_today": 6,
+    "page_limit": 50
+  }
+}
