@@ -1,0 +1,76 @@
+{
+  "run_id": "20261008_153122",
+  "started_at": "2026-10-08T15:31:22.270199+00:00",
+  "finished_at": "2026-10-08T15:31:57.239502+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Quantum_Tech_Labs_QTL_2026_9203_5234.pdf",
+      "vendor": "Quantum Tech Labs",
+      "invoice_number": "QTL-2026-9203",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261008_153137_Quantum_Tech_Labs_QTL_2026_9203_5234.png"
+    },
+    {
+      "file": "Quantum_Tech_Labs_QTL362294_9762.pdf",
+      "vendor": "Quantum Tech Labs",
+      "invoice_number": "QTL362294",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261008_153154_Quantum_Tech_Labs_QTL362294_9762.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2921,
+    "completion_tokens": 637,
+    "total_tokens": 3558,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3558
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 10764,
+    "token_limit": 100000,
+    "pages_today": 6,
+    "page_limit": 50
+  }
+}

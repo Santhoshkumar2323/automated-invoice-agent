@@ -644,5 +644,77 @@
       "igst": 0.0,
       "total": 454769.24
     }
+  },
+  {
+    "file": "Quantum_Tech_Labs_QTL_2026_9203_5234.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "17-09-2026",
+    "invoice": {
+      "invoice_number": "QTL-2026-9203",
+      "invoice_date": "2026-09-17",
+      "vendor_name": "Quantum Tech Labs",
+      "vendor_gstin": "27AABCQ4821M1Z7",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 8,
+          "rate": 61808.9,
+          "amount": 494471.2
+        },
+        {
+          "description": "Corrugated packaging boxes",
+          "hsn_code": "4819",
+          "quantity": 185,
+          "rate": 18.42,
+          "amount": 3407.7
+        },
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 3,
+          "rate": 564.09,
+          "amount": 1692.27
+        }
+      ],
+      "subtotal": 499571.17,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 89922.81,
+      "total": 589493.98
+    }
+  },
+  {
+    "file": "Quantum_Tech_Labs_QTL362294_9762.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-08-27",
+    "invoice": {
+      "invoice_number": "QTL362294",
+      "invoice_date": "2026-08-27",
+      "vendor_name": "Quantum Tech Labs",
+      "vendor_gstin": "27AABCQ4821M1Z7",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 5,
+          "rate": 16005.17,
+          "amount": 80025.85
+        }
+      ],
+      "subtotal": 80025.85,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 14404.65,
+      "total": 94430.5
+    }
   }
 ]
