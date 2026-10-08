@@ -493,5 +493,77 @@
       "igst": 89592.09,
       "total": 587325.95
     }
+  },
+  {
+    "file": "Sundaram_Office_Systems_SOS_2026_4658_3931.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "27/08/2026",
+    "invoice": {
+      "invoice_number": "SOS-2026-4658",
+      "invoice_date": "2026-08-27",
+      "vendor_name": "Sundaram Office Systems",
+      "vendor_gstin": "33AAECS6104R1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 10,
+          "rate": 2565.19,
+          "amount": 25651.9
+        },
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 5,
+          "rate": 6945.47,
+          "amount": 34727.35
+        }
+      ],
+      "subtotal": 60379.25,
+      "cgst": 5434.13,
+      "sgst": 5434.13,
+      "igst": 0.0,
+      "total": 71247.51
+    }
+  },
+  {
+    "file": "Pinnacle_Metals_INV_2026_27_89725_3938.pdf",
+    "defect": "REVOKED_VENDOR",
+    "expected_outcome": "REGISTRY_REVOKED",
+    "printed_date": "2026-09-15",
+    "invoice": {
+      "invoice_number": "INV/2026-27/89725",
+      "invoice_date": "2026-09-15",
+      "vendor_name": "Pinnacle Metals",
+      "vendor_gstin": "24AABCP7765J1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 9,
+          "rate": 32338.71,
+          "amount": 291048.39
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 8,
+          "rate": 16806.0,
+          "amount": 134448.0
+        }
+      ],
+      "subtotal": 425496.39,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 76589.35,
+      "total": 502085.74
+    }
   }
 ]

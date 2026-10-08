@@ -1102,5 +1102,53 @@
     "completion_tokens": 374,
     "total_tokens": 1905,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-08T00:56:12.853685+00:00",
+    "run_id": "20261008_005559",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Sundaram_Office_Systems_SOS_2026_4658_3931.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-08T00:56:13.510043+00:00",
+    "run_id": "20261008_005559",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Sundaram_Office_Systems_SOS_2026_4658_3931.pdf",
+    "prompt_tokens": 1477,
+    "completion_tokens": 351,
+    "total_tokens": 1828,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-08T00:56:23.793323+00:00",
+    "run_id": "20261008_005559",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Pinnacle_Metals_INV_2026_27_89725_3938.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-08T00:56:24.369445+00:00",
+    "run_id": "20261008_005559",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Pinnacle_Metals_INV_2026_27_89725_3938.pdf",
+    "prompt_tokens": 1450,
+    "completion_tokens": 329,
+    "total_tokens": 1779,
+    "pages": 0
   }
 ]
