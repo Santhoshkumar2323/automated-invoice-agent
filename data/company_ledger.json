@@ -94,5 +94,13 @@
     "invoice_number": "QTL362294",
     "amount": 94430.5,
     "status": "VERIFIED"
+  },
+  {
+    "timestamp": "2026-10-08T21:15:54+00:00",
+    "vendor": "Nexus Industrial Supplies",
+    "gstin": "29AABCN3390H1ZB",
+    "invoice_number": "NIS-2026-8023",
+    "amount": 1168761.67,
+    "status": "VERIFIED"
   }
 ]

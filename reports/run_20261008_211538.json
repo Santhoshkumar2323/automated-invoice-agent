@@ -1,0 +1,79 @@
+{
+  "run_id": "20261008_211538",
+  "started_at": "2026-10-08T21:15:38.575185+00:00",
+  "finished_at": "2026-10-08T21:16:12.400578+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 1,
+    "REJECTED": 1
+  },
+  "invoices": [
+    {
+      "file": "Nexus_Industrial_Supplies_NIS_2026_8023_4922.pdf",
+      "vendor": "Nexus Industrial Supplies",
+      "invoice_number": "NIS-2026-8023",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261008_211551_Nexus_Industrial_Supplies_NIS_2026_8023_4922.png"
+    },
+    {
+      "file": "Orbit_Cloud_Services_OCS_2026_3438_7453.pdf",
+      "vendor": "Orbit Cloud Services",
+      "invoice_number": "OCS-2026-3438",
+      "status": "REJECTED",
+      "reason": "DUPLICATE_INVOICE: invoice OCS-2026-3438 from 07AAACO5518B1ZV is already in the ledger",
+      "attempts": 1,
+      "issue_codes": [
+        "DUPLICATE_INVOICE"
+      ],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "DUPLICATE_INVOICE",
+      "defect": "DUPLICATE_INVOICE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 1,
+    "caught": 1,
+    "clean_invoices": 1,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 3004,
+    "completion_tokens": 682,
+    "total_tokens": 3686,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3686
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 14450,
+    "token_limit": 100000,
+    "pages_today": 8,
+    "page_limit": 50
+  }
+}

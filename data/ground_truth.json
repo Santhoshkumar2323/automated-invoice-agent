@@ -716,5 +716,84 @@
       "igst": 14404.65,
       "total": 94430.5
     }
+  },
+  {
+    "file": "Nexus_Industrial_Supplies_NIS_2026_8023_4922.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "22 September 2026",
+    "invoice": {
+      "invoice_number": "NIS-2026-8023",
+      "invoice_date": "2026-09-22",
+      "vendor_name": "Nexus Industrial Supplies",
+      "vendor_gstin": "29AABCN3390H1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 9,
+          "rate": 78540.5,
+          "amount": 706864.5
+        },
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 4,
+          "rate": 54178.78,
+          "amount": 216715.12
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 9,
+          "rate": 7432.93,
+          "amount": 66896.37
+        }
+      ],
+      "subtotal": 990475.99,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 178285.68,
+      "total": 1168761.67
+    }
+  },
+  {
+    "file": "Orbit_Cloud_Services_OCS_2026_3438_7453.pdf",
+    "defect": "DUPLICATE_INVOICE",
+    "expected_outcome": "DUPLICATE_INVOICE",
+    "printed_date": "2026-08-31",
+    "invoice": {
+      "invoice_number": "OCS-2026-3438",
+      "invoice_date": "2026-08-31",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 1,
+          "rate": 2175.33,
+          "amount": 2175.33
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 4,
+          "rate": 24686.3,
+          "amount": 98745.2
+        }
+      ],
+      "subtotal": 100920.53,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 18165.7,
+      "total": 119086.23
+    }
   }
 ]
