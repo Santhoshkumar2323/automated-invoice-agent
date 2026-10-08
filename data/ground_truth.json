@@ -565,5 +565,84 @@
       "igst": 76589.35,
       "total": 502085.74
     }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_KPW239854_1370.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "24/08/2026",
+    "invoice": {
+      "invoice_number": "KPW239854",
+      "invoice_date": "2026-08-24",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 3,
+          "rate": 1228.5,
+          "amount": 3685.5
+        },
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 7,
+          "rate": 72823.01,
+          "amount": 509761.07
+        }
+      ],
+      "subtotal": 513446.57,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 92420.38,
+      "total": 605866.95
+    }
+  },
+  {
+    "file": "Alpha_Logistics_Sandbox_ALS649431_4338.pdf",
+    "defect": "SUSPENDED_VENDOR",
+    "expected_outcome": "REGISTRY_SUSPENDED",
+    "printed_date": "Sep 14, 2026",
+    "invoice": {
+      "invoice_number": "ALS649431",
+      "invoice_date": "2026-09-14",
+      "vendor_name": "Alpha Logistics Sandbox",
+      "vendor_gstin": "33AABCA1234F1ZG",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 9,
+          "rate": 25185.27,
+          "amount": 226667.43
+        },
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 10,
+          "rate": 9193.35,
+          "amount": 91933.5
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 7,
+          "rate": 9542.39,
+          "amount": 66796.73
+        }
+      ],
+      "subtotal": 385397.66,
+      "cgst": 34685.79,
+      "sgst": 34685.79,
+      "igst": 0.0,
+      "total": 454769.24
+    }
   }
 ]
