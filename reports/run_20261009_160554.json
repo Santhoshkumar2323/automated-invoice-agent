@@ -1,0 +1,79 @@
+{
+  "run_id": "20261009_160554",
+  "started_at": "2026-10-09T16:05:54.814088+00:00",
+  "finished_at": "2026-10-09T16:06:55.249872+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "REJECTED": 1,
+    "ACCEPTED": 1
+  },
+  "invoices": [
+    {
+      "file": "Pinnacle_Metals_PM936391_8332.pdf",
+      "vendor": "Pinnacle Metals",
+      "invoice_number": "PM936391",
+      "status": "REJECTED",
+      "reason": "REGISTRY_REVOKED: vendor GST registration is revoked",
+      "attempts": 1,
+      "issue_codes": [
+        "REGISTRY_REVOKED"
+      ],
+      "registry_status": "REVOKED",
+      "expected_outcome": "REGISTRY_REVOKED",
+      "defect": "REVOKED_VENDOR",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    },
+    {
+      "file": "Kaveri_Packaging_Works_KPW_2026_0912_6661.pdf",
+      "vendor": "Kaveri Packaging Works",
+      "invoice_number": "KPW-2026-0912",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261009_160652_Kaveri_Packaging_Works_KPW_2026_0912_6661.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 1,
+    "caught": 1,
+    "clean_invoices": 1,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2981,
+    "completion_tokens": 559,
+    "total_tokens": 3540,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3540
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 10567,
+    "token_limit": 100000,
+    "pages_today": 6,
+    "page_limit": 50
+  }
+}

@@ -126,5 +126,13 @@
     "invoice_number": "KPW741956",
     "amount": 149084.87,
     "status": "VERIFIED"
+  },
+  {
+    "timestamp": "2026-10-09T16:06:54+00:00",
+    "vendor": "Kaveri Packaging Works",
+    "gstin": "24AADCK2207E1Z6",
+    "invoice_number": "KPW-2026-0912",
+    "amount": 195496.92,
+    "status": "VERIFIED"
   }
 ]

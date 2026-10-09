@@ -1390,5 +1390,53 @@
     "completion_tokens": 271,
     "total_tokens": 1834,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-09T16:06:28.649849+00:00",
+    "run_id": "20261009_160554",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Pinnacle_Metals_PM936391_8332.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-09T16:06:29.295765+00:00",
+    "run_id": "20261009_160554",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Pinnacle_Metals_PM936391_8332.pdf",
+    "prompt_tokens": 1599,
+    "completion_tokens": 260,
+    "total_tokens": 1859,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-09T16:06:51.674945+00:00",
+    "run_id": "20261009_160554",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Kaveri_Packaging_Works_KPW_2026_0912_6661.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-09T16:06:52.270424+00:00",
+    "run_id": "20261009_160554",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Kaveri_Packaging_Works_KPW_2026_0912_6661.pdf",
+    "prompt_tokens": 1382,
+    "completion_tokens": 299,
+    "total_tokens": 1681,
+    "pages": 0
   }
 ]

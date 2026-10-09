@@ -939,5 +939,84 @@
       "igst": 25897.4,
       "total": 169771.85
     }
+  },
+  {
+    "file": "Pinnacle_Metals_PM936391_8332.pdf",
+    "defect": "REVOKED_VENDOR",
+    "expected_outcome": "REGISTRY_REVOKED",
+    "printed_date": "10 Sep 2026",
+    "invoice": {
+      "invoice_number": "PM936391",
+      "invoice_date": "2026-09-10",
+      "vendor_name": "Pinnacle Metals",
+      "vendor_gstin": "24AABCP7765J1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 9,
+          "rate": 12140.59,
+          "amount": 109265.31
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 10,
+          "rate": 8508.43,
+          "amount": 85084.3
+        },
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 3,
+          "rate": 27820.49,
+          "amount": 83461.47
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 9,
+          "rate": 13530.27,
+          "amount": 121772.43
+        }
+      ],
+      "subtotal": 399583.51,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 71925.03,
+      "total": 471508.54
+    }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_KPW_2026_0912_6661.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "20-09-2026",
+    "invoice": {
+      "invoice_number": "KPW-2026-0912",
+      "invoice_date": "2026-09-20",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 3,
+          "rate": 55225.12,
+          "amount": 165675.36
+        }
+      ],
+      "subtotal": 165675.36,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 29821.56,
+      "total": 195496.92
+    }
   }
 ]
