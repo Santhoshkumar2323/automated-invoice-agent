@@ -1,0 +1,76 @@
+{
+  "run_id": "20261009_015846",
+  "started_at": "2026-10-09T01:58:46.981630+00:00",
+  "finished_at": "2026-10-09T01:59:19.723077+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Sundaram_Office_Systems_SOS896047_2087.pdf",
+      "vendor": "Sundaram Office Systems",
+      "invoice_number": "SOS896047",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261009_015900_Sundaram_Office_Systems_SOS896047_2087.png"
+    },
+    {
+      "file": "Nexus_Industrial_Supplies_INV_2026_27_10255_6219.pdf",
+      "vendor": "Nexus Industrial Supplies",
+      "invoice_number": "INV/2026-27/10255",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261009_015917_Nexus_Industrial_Supplies_INV_2026_27_10255_6219.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2794,
+    "completion_tokens": 590,
+    "total_tokens": 3384,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3384
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 3384,
+    "token_limit": 100000,
+    "pages_today": 2,
+    "page_limit": 50
+  }
+}

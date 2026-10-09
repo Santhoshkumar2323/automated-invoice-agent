@@ -795,5 +795,63 @@
       "igst": 18165.7,
       "total": 119086.23
     }
+  },
+  {
+    "file": "Sundaram_Office_Systems_SOS896047_2087.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "28 Aug 2026",
+    "invoice": {
+      "invoice_number": "SOS896047",
+      "invoice_date": "2026-08-28",
+      "vendor_name": "Sundaram Office Systems",
+      "vendor_gstin": "33AAECS6104R1Z3",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 7,
+          "rate": 25932.28,
+          "amount": 181525.96
+        }
+      ],
+      "subtotal": 181525.96,
+      "cgst": 16337.34,
+      "sgst": 16337.34,
+      "igst": 0.0,
+      "total": 214200.64
+    }
+  },
+  {
+    "file": "Nexus_Industrial_Supplies_INV_2026_27_10255_6219.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-15",
+    "invoice": {
+      "invoice_number": "INV/2026-27/10255",
+      "invoice_date": "2026-09-15",
+      "vendor_name": "Nexus Industrial Supplies",
+      "vendor_gstin": "29AABCN3390H1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 3,
+          "rate": 48848.97,
+          "amount": 146546.91
+        }
+      ],
+      "subtotal": 146546.91,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 26378.44,
+      "total": 172925.35
+    }
   }
 ]
