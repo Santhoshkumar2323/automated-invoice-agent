@@ -1438,5 +1438,53 @@
     "completion_tokens": 299,
     "total_tokens": 1681,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-09T20:49:34.136067+00:00",
+    "run_id": "20261009_204921",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Veda_Pharma_Distributors_INV_2026_27_49660_9956.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-09T20:49:34.887163+00:00",
+    "run_id": "20261009_204921",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Veda_Pharma_Distributors_INV_2026_27_49660_9956.pdf",
+    "prompt_tokens": 1559,
+    "completion_tokens": 347,
+    "total_tokens": 1906,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-09T20:49:56.505646+00:00",
+    "run_id": "20261009_204921",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Orbit_Cloud_Services_INV_2026_27_26234_9425.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-09T20:49:57.075656+00:00",
+    "run_id": "20261009_204921",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Orbit_Cloud_Services_INV_2026_27_26234_9425.pdf",
+    "prompt_tokens": 1604,
+    "completion_tokens": 343,
+    "total_tokens": 1947,
+    "pages": 0
   }
 ]

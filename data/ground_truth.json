@@ -1018,5 +1018,98 @@
       "igst": 29821.56,
       "total": 195496.92
     }
+  },
+  {
+    "file": "Veda_Pharma_Distributors_INV_2026_27_49660_9956.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "11/09/2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/49660",
+      "invoice_date": "2026-09-11",
+      "vendor_name": "Veda Pharma Distributors",
+      "vendor_gstin": "36AABCV9921D1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 7,
+          "rate": 6692.85,
+          "amount": 46849.95
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 10,
+          "rate": 6670.9,
+          "amount": 66709.0
+        },
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 10,
+          "rate": 22708.24,
+          "amount": 227082.4
+        }
+      ],
+      "subtotal": 340641.35,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 61315.44,
+      "total": 401956.79
+    }
+  },
+  {
+    "file": "Orbit_Cloud_Services_INV_2026_27_26234_9425.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "Sep 21, 2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/26234",
+      "invoice_date": "2026-09-21",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 6,
+          "rate": 5437.65,
+          "amount": 32625.9
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 5,
+          "rate": 11955.37,
+          "amount": 59776.85
+        },
+        {
+          "description": "Network switch 24 port",
+          "hsn_code": "8517",
+          "quantity": 8,
+          "rate": 22485.14,
+          "amount": 179881.12
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 5,
+          "rate": 19030.44,
+          "amount": 95152.2
+        }
+      ],
+      "subtotal": 367436.07,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 66138.49,
+      "total": 433574.56
+    }
   }
 ]
