@@ -1,0 +1,79 @@
+{
+  "run_id": "20261009_085221",
+  "started_at": "2026-10-09T08:52:21.732492+00:00",
+  "finished_at": "2026-10-09T08:53:06.927985+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 1,
+    "REJECTED": 1
+  },
+  "invoices": [
+    {
+      "file": "Kaveri_Packaging_Works_KPW741956_9894.pdf",
+      "vendor": "Kaveri Packaging Works",
+      "invoice_number": "KPW741956",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261009_085240_Kaveri_Packaging_Works_KPW741956_9894.png"
+    },
+    {
+      "file": "Apex_Hardware_Mart_INV_2026_27_02331_6304.pdf",
+      "vendor": "Apex Hardware Mart",
+      "invoice_number": "INV/2026-27/02331",
+      "status": "REJECTED",
+      "reason": "REGISTRY_NOT_FOUND: vendor GSTIN is not in the registry",
+      "attempts": 1,
+      "issue_codes": [
+        "REGISTRY_NOT_FOUND"
+      ],
+      "registry_status": "NOT_FOUND",
+      "expected_outcome": "REGISTRY_NOT_FOUND",
+      "defect": "UNKNOWN_VENDOR",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 1,
+    "caught": 1,
+    "clean_invoices": 1,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 3113,
+    "completion_tokens": 530,
+    "total_tokens": 3643,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3643
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 7027,
+    "token_limit": 100000,
+    "pages_today": 4,
+    "page_limit": 50
+  }
+}

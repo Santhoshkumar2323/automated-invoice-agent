@@ -1342,5 +1342,53 @@
     "completion_tokens": 291,
     "total_tokens": 1674,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-09T08:52:39.364673+00:00",
+    "run_id": "20261009_085221",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Kaveri_Packaging_Works_KPW741956_9894.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-09T08:52:40.059597+00:00",
+    "run_id": "20261009_085221",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Kaveri_Packaging_Works_KPW741956_9894.pdf",
+    "prompt_tokens": 1550,
+    "completion_tokens": 259,
+    "total_tokens": 1809,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-09T08:53:06.336712+00:00",
+    "run_id": "20261009_085221",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Apex_Hardware_Mart_INV_2026_27_02331_6304.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-09T08:53:06.923336+00:00",
+    "run_id": "20261009_085221",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Apex_Hardware_Mart_INV_2026_27_02331_6304.pdf",
+    "prompt_tokens": 1563,
+    "completion_tokens": 271,
+    "total_tokens": 1834,
+    "pages": 0
   }
 ]

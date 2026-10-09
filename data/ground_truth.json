@@ -853,5 +853,91 @@
       "igst": 26378.44,
       "total": 172925.35
     }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_KPW741956_9894.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-19",
+    "invoice": {
+      "invoice_number": "KPW741956",
+      "invoice_date": "2026-09-19",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 2,
+          "rate": 21399.04,
+          "amount": 42798.08
+        },
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 3,
+          "rate": 1754.57,
+          "amount": 5263.71
+        },
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 2,
+          "rate": 39140.66,
+          "amount": 78281.32
+        }
+      ],
+      "subtotal": 126343.11,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 22741.76,
+      "total": 149084.87
+    }
+  },
+  {
+    "file": "Apex_Hardware_Mart_INV_2026_27_02331_6304.pdf",
+    "defect": "UNKNOWN_VENDOR",
+    "expected_outcome": "REGISTRY_NOT_FOUND",
+    "printed_date": "2026-09-24",
+    "invoice": {
+      "invoice_number": "INV/2026-27/02331",
+      "invoice_date": "2026-09-24",
+      "vendor_name": "Apex Hardware Mart",
+      "vendor_gstin": "29HZBCJ2096U1Z1",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 9,
+          "rate": 15263.05,
+          "amount": 137367.45
+        },
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 3,
+          "rate": 2098.72,
+          "amount": 6296.16
+        },
+        {
+          "description": "Corrugated packaging boxes",
+          "hsn_code": "4819",
+          "quantity": 14,
+          "rate": 15.06,
+          "amount": 210.84
+        }
+      ],
+      "subtotal": 143874.45,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 25897.4,
+      "total": 169771.85
+    }
   }
 ]
