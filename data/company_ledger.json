@@ -190,5 +190,13 @@
     "invoice_number": "OCS-2026-0220",
     "amount": 78504.41,
     "status": "VERIFIED"
+  },
+  {
+    "timestamp": "2026-10-10T18:27:00+00:00",
+    "vendor": "Kaveri Packaging Works",
+    "gstin": "24AADCK2207E1Z6",
+    "invoice_number": "KPW-2026-2543",
+    "amount": 192124.41,
+    "status": "VERIFIED"
   }
 ]

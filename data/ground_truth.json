@@ -1355,5 +1355,91 @@
       "igst": 11975.25,
       "total": 78504.41
     }
+  },
+  {
+    "file": "Nexus_Industrial_Supplies_NIS539015_6047.pdf",
+    "defect": "BAD_CHECKSUM",
+    "expected_outcome": "GSTIN_CHECKSUM",
+    "printed_date": "Aug 28, 2026",
+    "invoice": {
+      "invoice_number": "NIS539015",
+      "invoice_date": "2026-08-28",
+      "vendor_name": "Nexus Industrial Supplies",
+      "vendor_gstin": "29AABCN3390H1Z1",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 7,
+          "rate": 5426.25,
+          "amount": 37983.75
+        },
+        {
+          "description": "Corrugated packaging boxes",
+          "hsn_code": "4819",
+          "quantity": 35,
+          "rate": 25.79,
+          "amount": 902.65
+        },
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 2,
+          "rate": 8562.3,
+          "amount": 17124.6
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 6,
+          "rate": 6910.65,
+          "amount": 41463.9
+        }
+      ],
+      "subtotal": 97474.9,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 17545.48,
+      "total": 115020.38
+    }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_KPW_2026_2543_2553.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "29 September 2026",
+    "invoice": {
+      "invoice_number": "KPW-2026-2543",
+      "invoice_date": "2026-09-29",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 2,
+          "rate": 57273.24,
+          "amount": 114546.48
+        },
+        {
+          "description": "Network switch 24 port",
+          "hsn_code": "8517",
+          "quantity": 2,
+          "rate": 24135.41,
+          "amount": 48270.82
+        }
+      ],
+      "subtotal": 162817.3,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 29307.11,
+      "total": 192124.41
+    }
   }
 ]
