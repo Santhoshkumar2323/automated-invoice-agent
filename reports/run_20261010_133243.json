@@ -1,0 +1,76 @@
+{
+  "run_id": "20261010_133243",
+  "started_at": "2026-10-10T13:32:43.895487+00:00",
+  "finished_at": "2026-10-10T13:33:06.981325+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Kaveri_Packaging_Works_KPW307356_3768.pdf",
+      "vendor": "Kaveri Packaging Works",
+      "invoice_number": "KPW307356",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261010_133253_Kaveri_Packaging_Works_KPW307356_3768.png"
+    },
+    {
+      "file": "Orbit_Cloud_Services_OCS_2026_0220_9571.pdf",
+      "vendor": "Orbit Cloud Services",
+      "invoice_number": "OCS-2026-0220",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261010_133303_Orbit_Cloud_Services_OCS_2026_0220_9571.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 3000,
+    "completion_tokens": 655,
+    "total_tokens": 3655,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3655
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 11191,
+    "token_limit": 100000,
+    "pages_today": 6,
+    "page_limit": 50
+  }
+}

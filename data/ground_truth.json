@@ -1276,5 +1276,84 @@
       "igst": 7476.23,
       "total": 49010.85
     }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_KPW307356_3768.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "06-09-2026",
+    "invoice": {
+      "invoice_number": "KPW307356",
+      "invoice_date": "2026-09-06",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 6,
+          "rate": 10443.99,
+          "amount": 62663.94
+        },
+        {
+          "description": "Stainless steel fasteners kit",
+          "hsn_code": "7318",
+          "quantity": 10,
+          "rate": 1501.29,
+          "amount": 15012.9
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 6,
+          "rate": 8318.06,
+          "amount": 49908.36
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 1,
+          "rate": 3712.63,
+          "amount": 3712.63
+        }
+      ],
+      "subtotal": 131297.83,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 23633.61,
+      "total": 154931.44
+    }
+  },
+  {
+    "file": "Orbit_Cloud_Services_OCS_2026_0220_9571.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-11",
+    "invoice": {
+      "invoice_number": "OCS-2026-0220",
+      "invoice_date": "2026-09-11",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 4,
+          "rate": 16632.29,
+          "amount": 66529.16
+        }
+      ],
+      "subtotal": 66529.16,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 11975.25,
+      "total": 78504.41
+    }
   }
 ]
