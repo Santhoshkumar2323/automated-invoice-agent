@@ -1678,5 +1678,53 @@
     "completion_tokens": 334,
     "total_tokens": 1778,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-10T22:24:59.663985+00:00",
+    "run_id": "20261010_222448",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Veda_Pharma_Distributors_VPD345460_9983.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-10T22:25:00.401998+00:00",
+    "run_id": "20261010_222448",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Veda_Pharma_Distributors_VPD345460_9983.pdf",
+    "prompt_tokens": 1444,
+    "completion_tokens": 343,
+    "total_tokens": 1787,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-10T22:25:07.345167+00:00",
+    "run_id": "20261010_222448",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Kaveri_Packaging_Works_INV_2026_27_59485_7925.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-10T22:25:08.052667+00:00",
+    "run_id": "20261010_222448",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Kaveri_Packaging_Works_INV_2026_27_59485_7925.pdf",
+    "prompt_tokens": 1562,
+    "completion_tokens": 363,
+    "total_tokens": 1925,
+    "pages": 0
   }
 ]

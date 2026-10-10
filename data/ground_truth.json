@@ -1441,5 +1441,84 @@
       "igst": 29307.11,
       "total": 192124.41
     }
+  },
+  {
+    "file": "Veda_Pharma_Distributors_VPD345460_9983.pdf",
+    "defect": "DUPLICATE_INVOICE",
+    "expected_outcome": "DUPLICATE_INVOICE",
+    "printed_date": "09/10/2026",
+    "invoice": {
+      "invoice_number": "VPD345460",
+      "invoice_date": "2026-10-09",
+      "vendor_name": "Veda Pharma Distributors",
+      "vendor_gstin": "36AABCV9921D1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 4,
+          "rate": 65819.04,
+          "amount": 263276.16
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 5,
+          "rate": 6072.64,
+          "amount": 30363.2
+        }
+      ],
+      "subtotal": 293639.36,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 52855.08,
+      "total": 346494.44
+    }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_INV_2026_27_59485_7925.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "13 September 2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/59485",
+      "invoice_date": "2026-09-13",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 5,
+          "rate": 62744.98,
+          "amount": 313724.9
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 8,
+          "rate": 7696.74,
+          "amount": 61573.92
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 7,
+          "rate": 7835.97,
+          "amount": 54851.79
+        }
+      ],
+      "subtotal": 430150.61,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 77427.11,
+      "total": 507577.72
+    }
   }
 ]
