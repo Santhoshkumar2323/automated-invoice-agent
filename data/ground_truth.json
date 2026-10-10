@@ -1197,5 +1197,84 @@
       "igst": 46417.68,
       "total": 304293.67
     }
+  },
+  {
+    "file": "Orbit_Cloud_Services_OCS464666_2815.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "Aug 26, 2026",
+    "invoice": {
+      "invoice_number": "OCS464666",
+      "invoice_date": "2026-08-26",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 4,
+          "rate": 44640.23,
+          "amount": 178560.92
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 9,
+          "rate": 6911.83,
+          "amount": 62206.47
+        },
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 9,
+          "rate": 72231.13,
+          "amount": 650080.17
+        }
+      ],
+      "subtotal": 890847.56,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 160352.56,
+      "total": 1051200.12
+    }
+  },
+  {
+    "file": "Nexus_Industrial_Supplies_NIS347246_3426.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "05-09-2026",
+    "invoice": {
+      "invoice_number": "NIS347246",
+      "invoice_date": "2026-09-05",
+      "vendor_name": "Nexus Industrial Supplies",
+      "vendor_gstin": "29AABCN3390H1ZB",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Network switch 24 port",
+          "hsn_code": "8517",
+          "quantity": 1,
+          "rate": 10764.65,
+          "amount": 10764.65
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 7,
+          "rate": 4395.71,
+          "amount": 30769.97
+        }
+      ],
+      "subtotal": 41534.62,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 7476.23,
+      "total": 49010.85
+    }
   }
 ]

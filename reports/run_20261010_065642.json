@@ -1,0 +1,76 @@
+{
+  "run_id": "20261010_065642",
+  "started_at": "2026-10-10T06:56:42.458653+00:00",
+  "finished_at": "2026-10-10T06:57:05.167558+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Orbit_Cloud_Services_OCS464666_2815.pdf",
+      "vendor": "Orbit Cloud Services",
+      "invoice_number": "OCS464666",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261010_065651_Orbit_Cloud_Services_OCS464666_2815.png"
+    },
+    {
+      "file": "Nexus_Industrial_Supplies_NIS347246_3426.pdf",
+      "vendor": "Nexus Industrial Supplies",
+      "invoice_number": "NIS347246",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261010_065702_Nexus_Industrial_Supplies_NIS347246_3426.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2994,
+    "completion_tokens": 679,
+    "total_tokens": 3673,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3673
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 7536,
+    "token_limit": 100000,
+    "pages_today": 4,
+    "page_limit": 50
+  }
+}
