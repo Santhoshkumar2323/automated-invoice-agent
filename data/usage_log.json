@@ -1486,5 +1486,53 @@
     "completion_tokens": 343,
     "total_tokens": 1947,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-10T00:42:31.048182+00:00",
+    "run_id": "20261010_004218",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Alpha_Labs_AL_2026_1570_6348.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-10T00:42:31.733587+00:00",
+    "run_id": "20261010_004218",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Alpha_Labs_AL_2026_1570_6348.pdf",
+    "prompt_tokens": 1584,
+    "completion_tokens": 374,
+    "total_tokens": 1958,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-10T00:42:44.116524+00:00",
+    "run_id": "20261010_004218",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Nexus_Industrial_Supplies_NIS_2026_3138_7336.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-10T00:42:44.752168+00:00",
+    "run_id": "20261010_004218",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Nexus_Industrial_Supplies_NIS_2026_3138_7336.pdf",
+    "prompt_tokens": 1557,
+    "completion_tokens": 348,
+    "total_tokens": 1905,
+    "pages": 0
   }
 ]

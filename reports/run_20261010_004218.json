@@ -1,0 +1,79 @@
+{
+  "run_id": "20261010_004218",
+  "started_at": "2026-10-10T00:42:18.135566+00:00",
+  "finished_at": "2026-10-10T00:42:44.756719+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 1,
+    "NEEDS_REVIEW": 1
+  },
+  "invoices": [
+    {
+      "file": "Alpha_Labs_AL_2026_1570_6348.pdf",
+      "vendor": "Alpha Labs",
+      "invoice_number": "AL-2026-1570",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261010_004231_Alpha_Labs_AL_2026_1570_6348.png"
+    },
+    {
+      "file": "Nexus_Industrial_Supplies_NIS_2026_3138_7336.pdf",
+      "vendor": "Nexus Industrial Supplies",
+      "invoice_number": "NIS-2026-3138",
+      "status": "NEEDS_REVIEW",
+      "reason": "the invoice itself prints these values, so a retry could not help; GSTIN_CHECKSUM: GSTIN '29AABCN3390H1ZF' fails the checksum digit test",
+      "attempts": 1,
+      "issue_codes": [
+        "GSTIN_CHECKSUM"
+      ],
+      "registry_status": null,
+      "expected_outcome": "GSTIN_CHECKSUM",
+      "defect": "BAD_CHECKSUM",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": ""
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 1,
+    "caught": 1,
+    "clean_invoices": 1,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 3141,
+    "completion_tokens": 722,
+    "total_tokens": 3863,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3863
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 3863,
+    "token_limit": 100000,
+    "pages_today": 2,
+    "page_limit": 50
+  }
+}

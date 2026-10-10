@@ -1111,5 +1111,91 @@
       "igst": 66138.49,
       "total": 433574.56
     }
+  },
+  {
+    "file": "Alpha_Labs_AL_2026_1570_6348.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "Sep 28, 2026",
+    "invoice": {
+      "invoice_number": "AL-2026-1570",
+      "invoice_date": "2026-09-28",
+      "vendor_name": "Alpha Labs",
+      "vendor_gstin": "33AAACA7712P1ZL",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 4,
+          "rate": 42806.52,
+          "amount": 171226.08
+        },
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 4,
+          "rate": 17376.12,
+          "amount": 69504.48
+        },
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 4,
+          "rate": 3377.14,
+          "amount": 13508.56
+        }
+      ],
+      "subtotal": 254239.12,
+      "cgst": 22881.52,
+      "sgst": 22881.52,
+      "igst": 0.0,
+      "total": 300002.16
+    }
+  },
+  {
+    "file": "Nexus_Industrial_Supplies_NIS_2026_3138_7336.pdf",
+    "defect": "BAD_CHECKSUM",
+    "expected_outcome": "GSTIN_CHECKSUM",
+    "printed_date": "26 September 2026",
+    "invoice": {
+      "invoice_number": "NIS-2026-3138",
+      "invoice_date": "2026-09-26",
+      "vendor_name": "Nexus Industrial Supplies",
+      "vendor_gstin": "29AABCN3390H1ZF",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 8,
+          "rate": 6260.72,
+          "amount": 50085.76
+        },
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 10,
+          "rate": 5584.26,
+          "amount": 55842.6
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 9,
+          "rate": 16883.07,
+          "amount": 151947.63
+        }
+      ],
+      "subtotal": 257875.99,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 46417.68,
+      "total": 304293.67
+    }
   }
 ]
