@@ -1870,5 +1870,53 @@
     "completion_tokens": 328,
     "total_tokens": 1774,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-11T20:10:26.402223+00:00",
+    "run_id": "20261011_201016",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Quantum_Tech_Labs_INV_2026_27_44416_5280.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-11T20:10:27.194917+00:00",
+    "run_id": "20261011_201016",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Quantum_Tech_Labs_INV_2026_27_44416_5280.pdf",
+    "prompt_tokens": 1549,
+    "completion_tokens": 361,
+    "total_tokens": 1910,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-11T20:10:37.796639+00:00",
+    "run_id": "20261011_201016",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Orbit_Cloud_Services_INV_2026_27_33155_1972.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-11T20:10:38.368456+00:00",
+    "run_id": "20261011_201016",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Orbit_Cloud_Services_INV_2026_27_33155_1972.pdf",
+    "prompt_tokens": 1606,
+    "completion_tokens": 299,
+    "total_tokens": 1905,
+    "pages": 0
   }
 ]

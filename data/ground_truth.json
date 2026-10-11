@@ -1750,5 +1750,98 @@
       "igst": 53857.01,
       "total": 353062.61
     }
+  },
+  {
+    "file": "Quantum_Tech_Labs_INV_2026_27_44416_5280.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-10-11",
+    "invoice": {
+      "invoice_number": "INV/2026-27/44416",
+      "invoice_date": "2026-10-11",
+      "vendor_name": "Quantum Tech Labs",
+      "vendor_gstin": "27AABCQ4821M1Z7",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Corrugated packaging boxes",
+          "hsn_code": "4819",
+          "quantity": 106,
+          "rate": 20.47,
+          "amount": 2169.82
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 10,
+          "rate": 6206.74,
+          "amount": 62067.4
+        },
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 9,
+          "rate": 5645.75,
+          "amount": 50811.75
+        }
+      ],
+      "subtotal": 115048.97,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 20708.81,
+      "total": 135757.78
+    }
+  },
+  {
+    "file": "Orbit_Cloud_Services_INV_2026_27_33155_1972.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "16/09/2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/33155",
+      "invoice_date": "2026-09-16",
+      "vendor_name": "Orbit Cloud Services",
+      "vendor_gstin": "07AAACO5518B1ZV",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 10,
+          "rate": 71464.09,
+          "amount": 714640.9
+        },
+        {
+          "description": "Industrial lubricant 20L drum",
+          "hsn_code": "2710",
+          "quantity": 8,
+          "rate": 9251.93,
+          "amount": 74015.44
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 6,
+          "rate": 10268.23,
+          "amount": 61609.38
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 6,
+          "rate": 5795.64,
+          "amount": 34773.84
+        }
+      ],
+      "subtotal": 885039.56,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 159307.12,
+      "total": 1044346.68
+    }
   }
 ]
