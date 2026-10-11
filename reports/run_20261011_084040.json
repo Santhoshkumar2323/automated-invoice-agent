@@ -1,0 +1,76 @@
+{
+  "run_id": "20261011_084040",
+  "started_at": "2026-10-11T08:40:40.865123+00:00",
+  "finished_at": "2026-10-11T08:41:05.615805+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Alpha_Labs_AL985676_2261.pdf",
+      "vendor": "Alpha Labs",
+      "invoice_number": "AL985676",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261011_084050_Alpha_Labs_AL985676_2261.png"
+    },
+    {
+      "file": "Sundaram_Office_Systems_SOS_2026_2179_3406.pdf",
+      "vendor": "Sundaram Office Systems",
+      "invoice_number": "SOS-2026-2179",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261011_084102_Sundaram_Office_Systems_SOS_2026_2179_3406.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2947,
+    "completion_tokens": 681,
+    "total_tokens": 3628,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3628
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 7398,
+    "token_limit": 100000,
+    "pages_today": 4,
+    "page_limit": 50
+  }
+}
