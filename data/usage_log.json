@@ -1726,5 +1726,53 @@
     "completion_tokens": 363,
     "total_tokens": 1925,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-11T01:48:14.736871+00:00",
+    "run_id": "20261011_014804",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Kaveri_Packaging_Works_KPW285052_1666.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-11T01:48:15.744001+00:00",
+    "run_id": "20261011_014804",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Kaveri_Packaging_Works_KPW285052_1666.pdf",
+    "prompt_tokens": 1550,
+    "completion_tokens": 363,
+    "total_tokens": 1913,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-11T01:48:26.696526+00:00",
+    "run_id": "20261011_014804",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Redwood_Traders_RT529640_3820.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-11T01:48:27.329476+00:00",
+    "run_id": "20261011_014804",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Redwood_Traders_RT529640_3820.pdf",
+    "prompt_tokens": 1601,
+    "completion_tokens": 256,
+    "total_tokens": 1857,
+    "pages": 0
   }
 ]

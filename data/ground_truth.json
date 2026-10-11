@@ -1520,5 +1520,98 @@
       "igst": 77427.11,
       "total": 507577.72
     }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_KPW285052_1666.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "2026-09-23",
+    "invoice": {
+      "invoice_number": "KPW285052",
+      "invoice_date": "2026-09-23",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 2,
+          "rate": 56010.99,
+          "amount": 112021.98
+        },
+        {
+          "description": "Printer toner cartridge",
+          "hsn_code": "8443",
+          "quantity": 9,
+          "rate": 6200.88,
+          "amount": 55807.92
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 3,
+          "rate": 12001.44,
+          "amount": 36004.32
+        }
+      ],
+      "subtotal": 203834.22,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 36690.16,
+      "total": 240524.38
+    }
+  },
+  {
+    "file": "Redwood_Traders_RT529640_3820.pdf",
+    "defect": "SUSPENDED_VENDOR",
+    "expected_outcome": "REGISTRY_SUSPENDED",
+    "printed_date": "23/09/2026",
+    "invoice": {
+      "invoice_number": "RT529640",
+      "invoice_date": "2026-09-23",
+      "vendor_name": "Redwood Traders",
+      "vendor_gstin": "27AAACR4410G1ZR",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Corrugated packaging boxes",
+          "hsn_code": "4819",
+          "quantity": 125,
+          "rate": 58.37,
+          "amount": 7296.25
+        },
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 5,
+          "rate": 20531.1,
+          "amount": 102655.5
+        },
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 3,
+          "rate": 58899.09,
+          "amount": 176697.27
+        },
+        {
+          "description": "Industrial lubricant 20L drum",
+          "hsn_code": "2710",
+          "quantity": 8,
+          "rate": 8641.75,
+          "amount": 69134.0
+        }
+      ],
+      "subtotal": 355783.02,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 64040.94,
+      "total": 419823.96
+    }
   }
 ]
