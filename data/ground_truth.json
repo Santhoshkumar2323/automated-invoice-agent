@@ -1685,5 +1685,70 @@
       "igst": 0.0,
       "total": 101505.83
     }
+  },
+  {
+    "file": "Quantum_Tech_Labs_INV_2026_27_27819_8270.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "22 Sep 2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/27819",
+      "invoice_date": "2026-09-22",
+      "vendor_name": "Quantum Tech Labs",
+      "vendor_gstin": "27AABCQ4821M1Z7",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 5,
+          "rate": 40095.63,
+          "amount": 200478.15
+        }
+      ],
+      "subtotal": 200478.15,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 36086.07,
+      "total": 236564.22
+    }
+  },
+  {
+    "file": "Kaveri_Packaging_Works_INV_2026_27_33038_5127.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "Sep 26, 2026",
+    "invoice": {
+      "invoice_number": "INV/2026-27/33038",
+      "invoice_date": "2026-09-26",
+      "vendor_name": "Kaveri Packaging Works",
+      "vendor_gstin": "24AADCK2207E1Z6",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Laptop computer 14 inch",
+          "hsn_code": "8471",
+          "quantity": 5,
+          "rate": 50468.62,
+          "amount": 252343.1
+        },
+        {
+          "description": "Office chair ergonomic",
+          "hsn_code": "9401",
+          "quantity": 5,
+          "rate": 9372.5,
+          "amount": 46862.5
+        }
+      ],
+      "subtotal": 299205.6,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 53857.01,
+      "total": 353062.61
+    }
   }
 ]

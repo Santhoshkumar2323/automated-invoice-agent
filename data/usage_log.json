@@ -1822,5 +1822,53 @@
     "completion_tokens": 349,
     "total_tokens": 1827,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-11T15:34:16.554797+00:00",
+    "run_id": "20261011_153408",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Quantum_Tech_Labs_INV_2026_27_27819_8270.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-11T15:34:17.192192+00:00",
+    "run_id": "20261011_153408",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Quantum_Tech_Labs_INV_2026_27_27819_8270.pdf",
+    "prompt_tokens": 1381,
+    "completion_tokens": 297,
+    "total_tokens": 1678,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-11T15:34:27.841412+00:00",
+    "run_id": "20261011_153408",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Kaveri_Packaging_Works_INV_2026_27_33038_5127.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-11T15:34:28.510312+00:00",
+    "run_id": "20261011_153408",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Kaveri_Packaging_Works_INV_2026_27_33038_5127.pdf",
+    "prompt_tokens": 1446,
+    "completion_tokens": 328,
+    "total_tokens": 1774,
+    "pages": 0
   }
 ]

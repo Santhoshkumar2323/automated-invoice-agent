@@ -1,0 +1,76 @@
+{
+  "run_id": "20261011_153408",
+  "started_at": "2026-10-11T15:34:08.163340+00:00",
+  "finished_at": "2026-10-11T15:34:31.100394+00:00",
+  "trigger_reason": "interval elapsed",
+  "dry_run": false,
+  "model": "openai/gpt-oss-20b",
+  "counts": {
+    "ACCEPTED": 2
+  },
+  "invoices": [
+    {
+      "file": "Quantum_Tech_Labs_INV_2026_27_27819_8270.pdf",
+      "vendor": "Quantum Tech Labs",
+      "invoice_number": "INV/2026-27/27819",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261011_153417_Quantum_Tech_Labs_INV_2026_27_27819_8270.png"
+    },
+    {
+      "file": "Kaveri_Packaging_Works_INV_2026_27_33038_5127.pdf",
+      "vendor": "Kaveri Packaging Works",
+      "invoice_number": "INV/2026-27/33038",
+      "status": "ACCEPTED",
+      "reason": "ledger entry verified",
+      "attempts": 1,
+      "issue_codes": [],
+      "registry_status": "ACTIVE",
+      "expected_outcome": "ACCEPT",
+      "defect": "NONE",
+      "decision_correct": true,
+      "extraction": {
+        "correct": 11,
+        "total": 11,
+        "wrong": []
+      },
+      "screenshot": "screenshots/20261011_153428_Kaveri_Packaging_Works_INV_2026_27_33038_5127.png"
+    }
+  ],
+  "extraction_accuracy": 1.0,
+  "detection": {
+    "bad_invoices": 0,
+    "caught": 0,
+    "clean_invoices": 2,
+    "clean_wrongly_stopped": 0
+  },
+  "usage": {
+    "llm_calls": 2,
+    "prompt_tokens": 2827,
+    "completion_tokens": 625,
+    "total_tokens": 3452,
+    "pages": 2,
+    "cost_usd": 0.0,
+    "tokens_by_step": {
+      "extract": 3452
+    },
+    "retry_token_share": 0.0
+  },
+  "budget": {
+    "tokens_today": 10850,
+    "token_limit": 100000,
+    "pages_today": 6,
+    "page_limit": 50
+  }
+}
