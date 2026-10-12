@@ -1918,5 +1918,53 @@
     "completion_tokens": 299,
     "total_tokens": 1905,
     "pages": 0
+  },
+  {
+    "timestamp": "2026-10-12T00:26:49.299129+00:00",
+    "run_id": "20261012_002637",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Quantum_Tech_Labs_QTL171368_3089.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-12T00:26:49.887894+00:00",
+    "run_id": "20261012_002637",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Quantum_Tech_Labs_QTL171368_3089.pdf",
+    "prompt_tokens": 1439,
+    "completion_tokens": 255,
+    "total_tokens": 1694,
+    "pages": 0
+  },
+  {
+    "timestamp": "2026-10-12T00:26:59.716751+00:00",
+    "run_id": "20261012_002637",
+    "kind": "parse",
+    "step": "parse",
+    "model": "llamaparse",
+    "invoice": "Alpha_Labs_AL_2026_4826_7916.pdf",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "pages": 1
+  },
+  {
+    "timestamp": "2026-10-12T00:27:00.482963+00:00",
+    "run_id": "20261012_002637",
+    "kind": "llm",
+    "step": "extract",
+    "model": "openai/gpt-oss-20b",
+    "invoice": "Alpha_Labs_AL_2026_4826_7916.pdf",
+    "prompt_tokens": 1565,
+    "completion_tokens": 232,
+    "total_tokens": 1797,
+    "pages": 0
   }
 ]

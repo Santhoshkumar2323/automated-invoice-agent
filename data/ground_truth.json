@@ -1843,5 +1843,84 @@
       "igst": 159307.12,
       "total": 1044346.68
     }
+  },
+  {
+    "file": "Quantum_Tech_Labs_QTL171368_3089.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "29 Aug 2026",
+    "invoice": {
+      "invoice_number": "QTL171368",
+      "invoice_date": "2026-08-29",
+      "vendor_name": "Quantum Tech Labs",
+      "vendor_gstin": "27AABCQ4821M1Z7",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Cloud hosting subscription monthly",
+          "hsn_code": "9983",
+          "quantity": 6,
+          "rate": 5365.92,
+          "amount": 32195.52
+        },
+        {
+          "description": "Maintenance and support service",
+          "hsn_code": "9987",
+          "quantity": 9,
+          "rate": 11895.97,
+          "amount": 107063.73
+        }
+      ],
+      "subtotal": 139259.25,
+      "cgst": 0.0,
+      "sgst": 0.0,
+      "igst": 25066.67,
+      "total": 164325.92
+    }
+  },
+  {
+    "file": "Alpha_Labs_AL_2026_4826_7916.pdf",
+    "defect": "NONE",
+    "expected_outcome": "ACCEPT",
+    "printed_date": "12-10-2026",
+    "invoice": {
+      "invoice_number": "AL-2026-4826",
+      "invoice_date": "2026-10-12",
+      "vendor_name": "Alpha Labs",
+      "vendor_gstin": "33AAACA7712P1ZL",
+      "buyer_name": "Meridian Retail Pvt Ltd",
+      "buyer_gstin": "33AABCM5612K1ZN",
+      "place_of_supply": "Tamil Nadu (33)",
+      "line_items": [
+        {
+          "description": "Freight and logistics service",
+          "hsn_code": "9965",
+          "quantity": 2,
+          "rate": 29937.14,
+          "amount": 59874.28
+        },
+        {
+          "description": "Software licence annual",
+          "hsn_code": "9973",
+          "quantity": 4,
+          "rate": 52424.76,
+          "amount": 209699.04
+        },
+        {
+          "description": "LED display monitor 24 inch",
+          "hsn_code": "8528",
+          "quantity": 9,
+          "rate": 11934.51,
+          "amount": 107410.59
+        }
+      ],
+      "subtotal": 376983.91,
+      "cgst": 33928.55,
+      "sgst": 33928.55,
+      "igst": 0.0,
+      "total": 444841.01
+    }
   }
 ]
